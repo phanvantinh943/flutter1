@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "899564513816",
+    "project_id": "cuoiki2-58fc1",
+    "storage_bucket": "cuoiki2-58fc1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:899564513816:android:8bbdb42c73be59e6c0716d",
+        "android_client_info": {
+          "package_name": "com.example.cuoiki"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXay0bzjZAp3ClrWcR3fIstfKTYZ89w08"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
