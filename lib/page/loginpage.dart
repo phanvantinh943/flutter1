@@ -97,13 +97,7 @@ class _LoginPageState extends State<LoginPage> {
               const SizedBox(height: 25),
               MyButton(
                 text: "Login",
-                onTap: () {
-                  Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) => const MenuPage([]),
-                      ));
-                },
+                onTap: login,
               ),
               const SizedBox(height: 25),
               Row(

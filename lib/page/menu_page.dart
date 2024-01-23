@@ -233,58 +233,50 @@ class _MenuPageState extends State<MenuPage> {
               ),
             ),
             const SizedBox(height: 25),
-            Padding(
-              padding: const EdgeInsets.only(left: 25.0),
-              child: ListTile(
-                leading: Icon(
-                  Icons.home,
-                  color: Theme.of(context).colorScheme.inversePrimary,
+            Column(
+              children: [
+                Padding(
+                  padding: const EdgeInsets.only(left: 25.0),
+                  child: ListTile(
+                    leading: Icon(
+                      Icons.home,
+                      color: Theme.of(context).colorScheme.inversePrimary,
+                    ),
+                    title: Text("H O M E"),
+                    onTap: () {
+                      Navigator.pop(context);
+                    },
+                  ),
                 ),
-                title: Text("H O M E"),
-                onTap: () {
-                  Navigator.pop(context);
-                },
-              ),
-            ),
-            Padding(
-              padding: const EdgeInsets.only(left: 25.0),
-              child: ListTile(
-                leading: Icon(
-                  Icons.person,
-                  color: Theme.of(context).colorScheme.inversePrimary,
+                Padding(
+                  padding: const EdgeInsets.only(left: 25.0),
+                  child: ListTile(
+                    leading: Icon(
+                      Icons.person,
+                      color: Theme.of(context).colorScheme.inversePrimary,
+                    ),
+                    title: Text("P R O F I L E"),
+                    onTap: () {
+                      Navigator.pop(context);
+                    },
+                  ),
                 ),
-                title: Text("P R O F I L E"),
-                onTap: () {
-                  Navigator.pop(context);
-                },
-              ),
-            ),
-            Padding(
-              padding: const EdgeInsets.only(left: 25.0),
-              child: ListTile(
-                leading: Icon(
-                  Icons.group,
-                  color: Theme.of(context).colorScheme.inversePrimary,
+                Padding(
+                  padding: const EdgeInsets.only(left: 25.0),
+                  child: ListTile(
+                    leading: Icon(
+                      Icons.food_bank,
+                      color: Theme.of(context).colorScheme.inversePrimary,
+                    ),
+                    title: Text("M E N U F O O D"),
+                    onTap: () {
+                      Navigator.pop(context);
+                    },
+                  ),
                 ),
-                title: Text("U S E R"),
-                onTap: () {
-                  Navigator.pop(context);
-                },
-              ),
+              ],
             ),
-            Padding(
-              padding: const EdgeInsets.only(left: 25.0),
-              child: ListTile(
-                leading: Icon(
-                  Icons.food_bank,
-                  color: Theme.of(context).colorScheme.inversePrimary,
-                ),
-                title: Text("M E N U F O O D"),
-                onTap: () {
-                  Navigator.pop(context);
-                },
-              ),
-            ),
+            const SizedBox(height: 50),
             Padding(
               padding: const EdgeInsets.only(left: 25.0),
               child: ListTile(

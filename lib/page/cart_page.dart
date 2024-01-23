@@ -54,16 +54,16 @@ class CartPage extends StatelessWidget {
                       title: Text(
                         foodName,
                         style: const TextStyle(
-                            color: Colors.grey, fontWeight: FontWeight.bold),
+                            color: Colors.black, fontWeight: FontWeight.bold),
                       ),
                       subtitle: Text(foodPrice,
                           style: TextStyle(
-                            color: Colors.grey[200],
+                            color: Colors.black,
                           )),
                       trailing: IconButton(
                         icon: Icon(
                           Icons.delete,
-                          color: Colors.grey[300],
+                          color: Colors.white,
                         ),
                         onPressed: () => removeFromCart(food, context),
                       ),
